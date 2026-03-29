@@ -97,7 +97,7 @@ jobs:
       - vib-publish
     name: Update branch deprecated-index
     steps:
-      - uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
         with:
           path: ~/artifacts
       # If we perform a checkout of the main branch, we will find conflicts with the submodules
